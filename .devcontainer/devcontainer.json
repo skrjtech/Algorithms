@@ -1,0 +1,12 @@
+{
+    "name": "for c",
+    "dockerComposeFile": "../.docker/docker-compose.yml",
+    "service": "c",
+    "workspaceFolder": "/ws",
+    "extensions": [
+        "ms-azuretools.vscode-docker"
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    }
+}

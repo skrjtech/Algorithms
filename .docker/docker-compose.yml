@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  c:
+    tty: true
+    build: 
+      context: ../.docker
+      dockerfile: Dockerfile
+    image: skrjtech/c_compile:latest
+    container_name: c_run
+    hostname: chost
+    restart: always
+    privileged: true
+    volumes:
+      - ..:/ws
