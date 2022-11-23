@@ -1,12 +1,12 @@
 version: '3.9'
 services:
-  c:
+  compile:
     tty: true
     build: 
       context: ../.docker
       dockerfile: Dockerfile
-    image: skrjtech/c_compile:latest
-    container_name: c_run
+    image: skrjtech/compile:latest
+    container_name: compile_run
     hostname: chost
     restart: always
     privileged: true
