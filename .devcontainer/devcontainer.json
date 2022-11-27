@@ -1,7 +1,7 @@
 {
     "name": "for c",
     "dockerComposeFile": "../.docker/docker-compose.yml",
-    "service": "c",
+    "service": "algorithm",
     "workspaceFolder": "/ws",
     "extensions": [
         "ms-azuretools.vscode-docker"
