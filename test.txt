@@ -1,5 +1,0 @@
-####### Master #######
-I'm Master!
-##### Branch One #####
-
-##### Branch Two #####
