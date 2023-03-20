@@ -4,11 +4,11 @@ services:
     build: 
       context: ../.docker
       dockerfile: Dockerfile
-    image: skrjtech/compile:c
+    image: skrjtech/compiler:latest
     container_name: algorithm_run
     tty: true
     restart: always
-    hostname: chost
+    hostname: compiler
     privileged: true
     volumes:
-      - ..:/ws
+      - ..:/HomeProjects

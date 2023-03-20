@@ -2,11 +2,5 @@
     "name": "for c",
     "dockerComposeFile": "../.docker/docker-compose.yml",
     "service": "algorithm",
-    "workspaceFolder": "/ws",
-    "extensions": [
-        "ms-azuretools.vscode-docker"
-    ],
-    "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
-    }
+    "workspaceFolder": "/HomeProjects"
 }
